@@ -28,12 +28,5 @@ class ReviewController extends Controller
         return $this->apiResponse($reviews);
     }
 
-    public function rating($id){
-        $course = Course::find($id);
 
-// الحصول على المتوسط باستخدام دالة avg
-//$averageRating = $course->courseReviews()->avg('rating');
-$count = $course->courseReviews()->count();
-return $this->apiResponse($count);
-    }
 }
