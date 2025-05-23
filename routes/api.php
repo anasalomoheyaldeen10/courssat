@@ -74,7 +74,7 @@ Route::post('/updatePassword',[authController::class, 'updatePassword'])->middle
 
 
 
-
+ ####################### this routs for  view information users #####################
 Route::get('/mycourse', [CourseController::class, 'mycourse'])->middleware('auth:sanctum');
 
 Route::get('/myfavourite', [CourseController::class, 'myfavourite'])->middleware('auth:sanctum');
@@ -89,7 +89,6 @@ Route::post('/addreview/{id}', [ReviewController::class, 'addreview'])->middlewa
 
 Route::get('/show/review/{id}', [ReviewController::class, 'reviews']);
 
-Route::get('/show/rating/{id}', [ReviewController::class, 'rating']);
 
 Route::post('/addComment/{id}',[CommentController::class,'addComment'])->middleware('auth:sanctum');
 
