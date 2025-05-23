@@ -1,0 +1,730 @@
+{
+  "v": 7,
+  "name": "COURSSAT",
+  "folders": [
+    {
+      "v": 7,
+      "name": "main-category",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "Get  All MainCategory",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/main-category",
+          "params": [],
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "none",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_ma5pqlbz_4fd9a9aa-f3de-466e-a6f6-d6e72fa7bb1f"
+    },
+    {
+      "v": 7,
+      "name": "category",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "Get All Category",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/category/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_ma5pqlbz_f36d3ef1-5d39-4bf8-be55-f927e91509ec"
+    },
+    {
+      "v": 7,
+      "name": "course",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "Get All Course",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/course/4",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "Get Last Course",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/lastcourse/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "Get Top Course",
+          "method": "GET",
+          "endpoint": "https://echo.hoppscotch.io",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_ma5pqlbz_d1bba832-f589-48cd-9cba-95db77b9b8f3"
+    },
+    {
+      "v": 7,
+      "name": "lesson",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "Get All Lessons",
+          "method": "GET",
+          "endpoint": "",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "Get one Lesson",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/lesson/4",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_ma5pqlbz_1fe5f208-7488-4bd9-8be2-97c419be06cc"
+    },
+    {
+      "v": 7,
+      "name": "home",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "Get Seach Course",
+          "method": "GET",
+          "endpoint": "",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "Get Reviews",
+          "method": "GET",
+          "endpoint": "",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "edit",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/photos/2",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_ma5pqlbz_8bedc174-9562-497e-b50d-ca17c3210fad"
+    },
+    {
+      "v": 7,
+      "name": "authentication",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "register",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:8000/api/registe",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/x-www-form-urlencoded",
+            "body": "name: anas123\nemail: anas123@gmail.com\npassword: 0935220960\npassword_confirmation: 0935220960"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "login",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:8000/api/login",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "33|EZhcYNRpcFq4hMoyKGByNiS7oqK7Qv3sdBtn2fqVcfa73a02",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/x-www-form-urlencoded",
+            "body": "email: anas123@gmail.com\npassword: 0935220960"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "logout",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/logout",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "43|C47iN0b7fz1j8QkErYwziRNkmX9mVvIQ9v1x3s3584eb7dc1",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "edit",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/edit",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "43|C47iN0b7fz1j8QkErYwziRNkmX9mVvIQ9v1x3s3584eb7dc1",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "update",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:8000/api/update",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "43|C47iN0b7fz1j8QkErYwziRNkmX9mVvIQ9v1x3s3584eb7dc1",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "multipart/form-data",
+            "body": [
+              {
+                "key": "name",
+                "active": true,
+                "isFile": false,
+                "value": "anas"
+              },
+              {
+                "key": "email",
+                "active": true,
+                "isFile": false,
+                "value": "anas@gmail.com"
+              },
+              {
+                "key": "country",
+                "active": true,
+                "isFile": false,
+                "value": "syria"
+              },
+              {
+                "key": "gender",
+                "active": true,
+                "isFile": false,
+                "value": "male"
+              },
+              {
+                "key": "phone",
+                "active": true,
+                "isFile": false,
+                "value": "0935220960"
+              },
+              {
+                "key": "photo",
+                "active": true,
+                "isFile": false,
+                "value": ""
+              }
+            ],
+            "isBulkEditing": false
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "updatePassword",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:8000/api/updatePassword",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "43|C47iN0b7fz1j8QkErYwziRNkmX9mVvIQ9v1x3s3584eb7dc1",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/x-www-form-urlencoded",
+            "body": "password: 1111111\npassword_confirmation: 1111111\nold: 0935220960"
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_mac3v7kf_51f2d3ff-66b1-41a7-a8a7-ddbaaba7c48f"
+    },
+    {
+      "v": 7,
+      "name": "subs+favourite",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "mycourse",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/mycourse",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "myfavourite",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/myfavourite",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "9|i2EbL6EBUeuOvMzaG2pe5NA4IfiPwP4LlEDNtTMpbdd49338",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "addsubs",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/addcourseSubs/1",
+          "params": [],
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "9|i2EbL6EBUeuOvMzaG2pe5NA4IfiPwP4LlEDNtTMpbdd49338",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "multipart/form-data",
+            "body": []
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "addfavorite",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/addfavorite/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "addReview",
+          "method": "GET",
+          "endpoint": "https://echo.hoppscotch.io",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "showReviews",
+          "method": "GET",
+          "endpoint": "https://echo.hoppscotch.io",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_mamd2tto_7d3e8d52-0bf3-4512-a194-60b62263aa5c"
+    },
+    {
+      "v": 7,
+      "name": "comment",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "addCommet",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:8000/api/addComment/4",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "41|gV0OE9QWsvpDCDUru6ItW5JLm67UudaqEBU0Te50f011a3ac",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/x-www-form-urlencoded",
+            "body": "desccription: \"the best course \""
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "Get All Comment",
+          "method": "GET",
+          "endpoint": "https://echo.hoppscotch.io",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_mb0gbc30_27b73d21-c3b1-45e5-9b40-0a77af2b5bcb"
+    },
+    {
+      "v": 7,
+      "name": "home",
+      "folders": [],
+      "requests": [
+        {
+          "v": "12",
+          "name": "home",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/home",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "Get more MainCategory",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/more",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "12",
+          "name": "auther",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:8000/api/auther/سمير جمال",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_mb0j30e3_72943b38-8f60-49ea-aea5-9be17d6f9337"
+    }
+  ],
+  "requests": [],
+  "auth": {
+    "authType": "inherit",
+    "authActive": true
+  },
+  "headers": [],
+  "_ref_id": "coll_ma5pqlbz_6325c9d0-6f8e-4a1d-b72a-7cdb4ae3ef22"
+}

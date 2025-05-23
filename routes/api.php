@@ -61,7 +61,7 @@ Route::post('/registe' , [authController::class, 'register']);
 
 Route::post('/login' , [authController::class, 'login']);
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+
     Route::get('/logout' , [authController::class, 'logout'])->middleware('auth:sanctum');
 
 Route::post('/update', [authController::class, 'update'])->middleware('auth:sanctum');
@@ -69,7 +69,7 @@ Route::post('/update', [authController::class, 'update'])->middleware('auth:sanc
 Route::get('/edit' , [authController::class, 'edit'])->middleware('auth:sanctum');
 
 Route::post('/updatePassword',[authController::class, 'updatePassword'])->middleware('auth:sanctum');
-});
+
 
 
 
