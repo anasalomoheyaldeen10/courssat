@@ -73,7 +73,7 @@ Route::post('/updatePassword',[authController::class, 'updatePassword'])->middle
 
 //////
 ///
-
+///////
  ####################### this routs for  view information users #####################
 Route::get('/mycourse', [CourseController::class, 'mycourse'])->middleware('auth:sanctum');
 
