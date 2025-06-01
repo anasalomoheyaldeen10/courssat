@@ -54,7 +54,7 @@ Route::get('/showLesson/{id}', [LessonController::class, 'show']);
 Route::get('/search/{data}',[HomeController::class,'search']);
 
 Route::get('/auther/{name}',[HomeController::class,'auther']);
-
+//
 #####################      authentication      #################
 
 Route::post('/registe' , [authController::class, 'register']);
