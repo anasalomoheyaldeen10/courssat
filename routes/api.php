@@ -71,7 +71,7 @@ Route::get('/edit' , [authController::class, 'edit'])->middleware('auth:sanctum'
 Route::post('/updatePassword',[authController::class, 'updatePassword'])->middleware('auth:sanctum');
 
 
-
+//////
 
 
  ####################### this routs for  view information users #####################
