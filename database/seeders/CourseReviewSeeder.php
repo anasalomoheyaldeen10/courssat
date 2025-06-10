@@ -17,22 +17,22 @@ class CourseReviewSeeder extends Seeder
         CourseReview::create([
             'rating'=>3.5,
             'description'=>'الكورس الأقوى',
-            'number'=>1,
+            //'number'=>1,
             'course_id'=>1,
             'user_id'=>1,
         ]);
         CourseReview::create([
             'rating'=>2.5,
             'description'=>'أنصح بمتابعة هذا الكورس',
-            'number'=>2,
-            'course_id'=>2,
+            //'number'=>2,
+            'course_id'=>1,
             'user_id'=>1,
         ]);
         CourseReview::create([
             'rating'=>4.5,
             'description'=>'يحوي الكورس على الأمثلة ',
-            'number'=>3,
-            'course_id'=>3,
+            //'number'=>3,
+            'course_id'=>1,
             'user_id'=>1,
         ]);
     }

@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Artisan;
+use Faker\Factory as FakerFactory;
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -17,10 +18,11 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
-    public function boot(): void
+   public function boot(): void
     {
-        // منع تنفيذ migrate:refresh أو migrate:reset في بيئة local
-
+        $this->app->singleton(\Faker\Generator::class, function () {
+            return FakerFactory::create('ar_SA');
+        });
     }
     }
 

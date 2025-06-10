@@ -12,6 +12,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+
         $this->call([
             MainCategorySeeder::class,
             CategorySeeder::class,
@@ -23,6 +24,7 @@ class DatabaseSeeder extends Seeder
             FavouriteCourseSeeder::class,
             CoursesSubscriptionSeeder::class, // Seeder للتسجيلات في الدورات
             // أضف هنا باقي السييدرز إذا كان لديك
+            TestSeeder::class ,
         ]);
     }
 }
