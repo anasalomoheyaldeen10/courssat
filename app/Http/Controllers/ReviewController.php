@@ -11,7 +11,7 @@ use App\Traits\GeneralTrait;
 class ReviewController extends Controller
 {
     use GeneralTrait;
-    public function addreview($id)
+    public function addreview($id , Request $request)
     {
           $userId=Auth::user()->id;
         $Review= new CourseReview();
@@ -27,6 +27,7 @@ class ReviewController extends Controller
         $reviews=CourseReview::where('course_id',$id)->with(['user:id,name,photo'])->get();
         return $this->apiResponse($reviews);
     }
+
 
 
 }

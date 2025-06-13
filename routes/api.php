@@ -78,13 +78,15 @@ Route::get('/myfavourite', [CourseController::class, 'myfavourite'])->middleware
 
 Route::get('/addcourseSubs/{course_id}', [CourseController::class, 'addcourseSubs'])->middleware('auth:sanctum');
 
-Route::get('/addfavorite/{course_id}', [CourseController::class, 'addfavorite'])->middleware('auth:sanctum');
+Route::post('/addfavorite/{course_id}', [CourseController::class, 'addfavorite'])->middleware('auth:sanctum');
 
 
 //   add review  edit controller for review controller
+
 Route::post('/addreview/{id}', [ReviewController::class, 'addreview'])->middleware('auth:sanctum');
 
 Route::get('/show/review/{id}', [ReviewController::class, 'reviews']);
+Route::get('/anas', [ReviewController::class, 'anas']);
 
 
 Route::post('/addComment/{id}',[CommentController::class,'addComment'])->middleware('auth:sanctum');
