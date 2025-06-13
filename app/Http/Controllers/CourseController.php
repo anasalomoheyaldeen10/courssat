@@ -81,7 +81,9 @@ class CourseController extends Controller
 
 public function addfavorite()
 {
-     $id=Auth::user()->id;
+
+
+ $id=Auth::user()->id;
     $data =FavouriteCourse::create([
         'user_id'=>$id,
         'course_id'=>request('course_id')
