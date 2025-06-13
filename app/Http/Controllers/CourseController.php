@@ -65,7 +65,7 @@ class CourseController extends Controller
         $id=Auth::user()->id;
          $user=User::find($id);
        $data=$user->favouriteCourses()->pluck('course_id');
-       $courses = Course::whereIn('id', $data)->get();
+       $courses = Course::whereIn('id', $data)->withavg('courseReviews','rating')->get();
        return response()->json($courses);
     }
   public function addcourseSubs(Request $request)
