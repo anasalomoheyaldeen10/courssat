@@ -76,7 +76,7 @@ Route::get('/mycourse', [CourseController::class, 'mycourse'])->middleware('auth
 
 Route::get('/myfavourite', [CourseController::class, 'myfavourite'])->middleware('auth:sanctum');
 
-Route::get('/addcourseSubs/{course_id}', [CourseController::class, 'addcourseSubs'])->middleware('auth:sanctum');
+Route::post('/addcourseSubs/{course_id}', [CourseController::class, 'addcourseSubs'])->middleware('auth:sanctum');
 
 Route::post('/addfavorite/{course_id}', [CourseController::class, 'addfavorite'])->middleware('auth:sanctum');
 
