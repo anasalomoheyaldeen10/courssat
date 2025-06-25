@@ -10,8 +10,10 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LessonController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\ForgetPassword;
 use App\Models\Category;
 use App\Models\Course;
+use App\Http\Controllers\WeatchedController;
 
 /*
 |--------------------------------------------------------------------------
@@ -93,5 +95,17 @@ Route::post('/addComment/{id}',[CommentController::class,'addComment'])->middlew
 
 Route::get('/show/comments/{id}', [CommentController::class, 'index']);
 
+Route::get('/authweatched/{id}', [WeatchedController::class, 'authweatched'])->middleware('auth:sanctum');
+
+Route::get('/weatched/{id}', [WeatchedController::class, 'weatched']);
+
+Route::get('/complete/{id}', [WeatchedController::class, 'complete'])->middleware('auth:sanctum');
+
+#############################   forget password #############################
+ Route::post('/forgetPassword', [ForgetPassword::class, 'forgetPassword']);
+
+ Route::post('/sendOtp', [ForgetPassword::class, 'sendOtp']);
+
+ Route::post('/updatedPassword', [ForgetPassword::class, 'updatedPassword']);
 
 
