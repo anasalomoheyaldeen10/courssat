@@ -14,6 +14,7 @@ use App\Http\Controllers\ForgetPassword;
 use App\Models\Category;
 use App\Models\Course;
 use App\Http\Controllers\WeatchedController;
+use App\Http\Controllers\ChatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -109,3 +110,4 @@ Route::get('/complete/{id}', [WeatchedController::class, 'complete'])->middlewar
  Route::post('/updatedPassword', [ForgetPassword::class, 'updatedPassword']);
 
 
+Route::post('/chat', [ChatController::class, 'chat']);
